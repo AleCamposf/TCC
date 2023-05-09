@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+
+root{
+    --green:#27ae60;
+    --dark-color:#219150;
+    --black: rgb(10, 184, 155);
+    --light-color: #666;
+    --border:.1rem solid rgba(0,0,0.1);
+    --border-hover:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1)
+}
+
+
+
+
+
+
+
+
+ *{
+    font-family: 'Sigmar', cursive;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition:widh none;
+ }
+
+html{
+    font-size:62.5%;
+    overflow-x: hidden;
+    scrooll-padding-top: 5rem;
+    scrooll-behavior:smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+    
+}
+
+html::-webkit-scrollbar-thum{
+    background:var(--black);
+    
+}
+
+.header .header-1{
+    background: rgb(1, 165, 143);
+    padding: 1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
